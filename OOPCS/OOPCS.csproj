@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.day2.EvenNumber.program</StartupObject>
+    <StartupObject>OOPCS.day2.PersonList.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,10 @@
     <Compile Include="day1\stats\Stats.cs" />
     <Compile Include="day2\EvenNumber\EvenNumber.cs" />
     <Compile Include="day2\EvenNumber\program.cs" />
+    <Compile Include="day2\PersonList\PersonList.cs" />
+    <Compile Include="day2\PersonList\program.cs" />
+    <Compile Include="day2\PersonProp\PersonProp.cs" />
+    <Compile Include="day2\PersonProp\program.cs" />
     <Compile Include="day2\Queue\program.cs" />
     <Compile Include="day2\Queue\Queue.cs" />
     <Compile Include="Program.cs" />
