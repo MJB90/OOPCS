@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.day1.colorLamp.program</StartupObject>
+    <StartupObject>OOPCS.day2.EvenNumber.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,10 @@
     <Compile Include="day1\peronProj\program.cs" />
     <Compile Include="day1\stats\program.cs" />
     <Compile Include="day1\stats\Stats.cs" />
+    <Compile Include="day2\EvenNumber\EvenNumber.cs" />
+    <Compile Include="day2\EvenNumber\program.cs" />
+    <Compile Include="day2\Queue\program.cs" />
+    <Compile Include="day2\Queue\Queue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
