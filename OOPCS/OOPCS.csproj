@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.day3.InheritanceI.Test</StartupObject>
+    <StartupObject>OOPCS.day3.InheritanceII.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,11 @@
     <Compile Include="day2\PersonProp\program.cs" />
     <Compile Include="day2\Queue\program.cs" />
     <Compile Include="day2\Queue\Queue.cs" />
+    <Compile Include="day3\InheritanceII\Account.cs" />
+    <Compile Include="day3\InheritanceII\CurrentAccount.cs" />
+    <Compile Include="day3\InheritanceII\OverdraftAccount.cs" />
+    <Compile Include="day3\InheritanceII\SavingsAccount.cs" />
+    <Compile Include="day3\InheritanceII\Test.cs" />
     <Compile Include="day3\InheritanceI\Account.cs" />
     <Compile Include="day3\InheritanceI\Test.cs" />
     <Compile Include="Program.cs" />
@@ -71,8 +76,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="day3\InheritanceII\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
