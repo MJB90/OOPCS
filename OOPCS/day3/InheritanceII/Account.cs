@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPCS.day3.InheritanceII
 {
-    class Account
+    public class Account
     {
         /**
          * TODO: create attributes
