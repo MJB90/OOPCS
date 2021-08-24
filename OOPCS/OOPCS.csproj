@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.day4.Polymorphism.Test</StartupObject>
+    <StartupObject>OOPCS.day5.Inheritance.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,17 @@
     <Compile Include="day3\InheritanceI\Test.cs" />
     <Compile Include="day4\Polymorphism\BankBranch.cs" />
     <Compile Include="day4\Polymorphism\Test.cs" />
+    <Compile Include="day5\AbstractClass\Circle.cs" />
+    <Compile Include="day5\AbstractClass\program.cs" />
+    <Compile Include="day5\AbstractClass\Rectangle.cs" />
+    <Compile Include="day5\AbstractClass\Shape.cs" />
+    <Compile Include="day5\AbstractClass\Triangle.cs" />
+    <Compile Include="day5\Inheritance\Contact.cs" />
+    <Compile Include="day5\Inheritance\Email.cs" />
+    <Compile Include="day5\Inheritance\Event.cs" />
+    <Compile Include="day5\Inheritance\ISyncable.cs" />
+    <Compile Include="day5\Inheritance\Item.cs" />
+    <Compile Include="day5\Inheritance\program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
