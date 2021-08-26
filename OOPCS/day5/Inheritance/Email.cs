@@ -9,7 +9,7 @@ namespace OOPCS.day5.Inheritance
     class Email : Item, ISyncable
     {
         private string title, from, content;
-        public Email(string title,string from,string content):base()
+        public Email(string title,string from,string content)
         {
             this.title = title;
             this.from = from;

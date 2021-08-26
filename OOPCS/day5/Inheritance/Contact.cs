@@ -9,7 +9,7 @@ namespace OOPCS.day5.Inheritance
     class Contact : Item, ISyncable
     {
         private string name, mobile;
-        public Contact(string name,string mobile):base()
+        public Contact(string name,string mobile)
         {
             this.name = name;
             this.mobile = mobile;

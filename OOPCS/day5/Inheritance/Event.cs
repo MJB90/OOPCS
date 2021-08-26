@@ -11,7 +11,7 @@ namespace OOPCS.day5.Inheritance
         private string title;
         private DateTime date;
 
-        public Event(string title,DateTime date):base()
+        public Event(string title,DateTime date)
         {
             this.title = title;
             this.date = date;
@@ -19,7 +19,7 @@ namespace OOPCS.day5.Inheritance
 
         public string GetSyncString()
         {
-            return "EV*" + id + "*" + title + "*" + date.ToString() + "*";
+            return "EV*" + id + "*" + title + "*" + date.ToString("dd / MM / yyyy HH: mm") + "*";
         }
     }
 }

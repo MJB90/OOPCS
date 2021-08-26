@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OOPCS.day5.Inheritance.program</StartupObject>
+    <StartupObject>OOPCS.day6.ExcepPropagate.TestPropagation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -83,6 +83,11 @@
     <Compile Include="day5\Inheritance\ISyncable.cs" />
     <Compile Include="day5\Inheritance\Item.cs" />
     <Compile Include="day5\Inheritance\program.cs" />
+    <Compile Include="day6\ExcepPropagate\ExcPropagation.cs" />
+    <Compile Include="day6\ExcepPropagate\TestPropagation.cs" />
+    <Compile Include="day6\Exceptions\BadTriangleException.cs" />
+    <Compile Include="day6\Exceptions\Program.cs" />
+    <Compile Include="day6\Exceptions\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
